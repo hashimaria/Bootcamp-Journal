@@ -51,6 +51,40 @@ Al estar en heroku:
 
 # HTML <> </>
 
-**<html> </html>** Inicio y final
+**html** >Inicio y final
 
+**head** >Encabezado /no visible
 
+**title** >Título pestaña de navegador
+
+**link rel="stylesheet" href="nombre.css"** >Llamando estilos de CSS
+
+**body** >Contenido visible del sitio
+
+**h1, h2, h3, h4, h5, h6** >Títulos y subtítulos dentro de body
+
+**p** >Párrafos
+
+**br** >Salto de línea. *No necesita cierre </>
+
+**img alt="nombre de la imagen" src="http....."** >Agregar imágen. *No necesita cierre </>
+
+**a href="http..."> [Referencia]** >Agregar hipervínculo
+
+**ol** >Listas enumeradas
+
+**ul** >Listas no enumeradas (viñetas)
+
+**li** >Dentro del listado (Siguiente elemento en la lista)
+
+**strong** >Negrita
+
+# CSS
+
+>Cambiar color de fondo (body)
+
+body {
+
+  background-color: .....;
+  
+  }
